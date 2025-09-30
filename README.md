@@ -15,7 +15,8 @@ This project was completed as the final project for INFO 4940: Network Science. 
 ## Repository Structure
 
 - `vc_network_analysis.py`: Main analysis script. Builds the network, computes metrics, and outputs plots.
-- `README.md`: This file.
+- `Network_Analysis_VC.ipynb`: Notebook with exploratory analysis and figures.
+- `outputs/`: Saved artifacts such as `company_graph.gexf`, centrality CSVs, and plots.
 - Data file(s): Expected CSV input (see below). You can update the path/filename in the script as needed.
 
 ## Data Requirements
@@ -32,24 +33,27 @@ Default expected filename in the script: `Combined VC Data - Sheet1.csv`.
 
 ## How It Works
 
-At a high level, the workflow in `vc_network_analysis.py`:
-1. Loads the CSV and cleans key fields (types, dates).
-2. Builds a bipartite graph using NetworkX with VCs on one side and companies on the other.
-3. Computes:
-   - VC connectivity and portfolio stats (`analyze_vc_connections`).
-   - Co-investment heatmap across VCs (`analyze_co_investments`).
-   - Vertical concentration per VC (`analyze_vertical_concentration`).
-   - Time-series trends of deals and check sizes (`analyze_time_series`).
-4. Uses parallel processing to speed up per-chunk metrics and correctly combines results across chunks.
-5. Saves multiple figures (e.g., `network_visualization.png`, `co_investment_patterns.png`, `time_series_analysis.png`, `industry_success_rates.png`).
+The pipeline in `vc_network_analysis.py`:
+1. Load and clean data: parse dates, coerce numeric fields, normalize text.
+2. Build a bipartite graph (VCs ↔ companies) with edge attributes:
+   - `weight` (last financing size), `verticals`, `success_probability`, `last_financing_date`.
+3. Compute and visualize:
+   - Network visualization of the bipartite graph (`network_visualization.png`).
+   - Time-series analysis of deal counts and check sizes (`time_series_analysis.png`).
+   - VC co-investment heatmap (`co_investment_patterns.png`).
+   - Industry vertical success and capital concentration (`industry_success_rates.png`).
+4. Parallel metrics: the dataset is chunked and analyzed in parallel; results are correctly combined across chunks so VC-level metrics reflect all connections.
+5. Console summaries: top VCs by degree (connections), average success probability, and total investment.
 
-### Outputs
+## Results (Summary)
 
-- `network_visualization.png`: Bipartite layout of VCs and companies
-- `co_investment_patterns.png`: VC-by-VC co-investment heatmap
-- `time_series_analysis.png`: Monthly deal volume and scatter of check sizes over time
-- `industry_success_rates.png`: Success and capital by vertical
-- Console output: Top VCs by number of connections, average success, total investment
+Highlights from the analysis include:
+- VCs with the highest connectivity (degree) to portfolio companies, reflecting breadth of investing.
+- Co-investment structure showing clusters of VCs that frequently invest together.
+- Vertical concentration patterns and relative success rates by industry.
+- Temporal dynamics in deal flow and check sizes.
+
+See the full write-up and slides for detailed findings, methodology, and figures.
 
 ## Installation
 
@@ -57,12 +61,6 @@ At a high level, the workflow in `vc_network_analysis.py`:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-```
-
-If you do not have a `requirements.txt`, you can install the main libs directly:
-
-```bash
-pip install pandas networkx matplotlib numpy seaborn
 ```
 
 ## Usage
@@ -75,12 +73,12 @@ pip install pandas networkx matplotlib numpy seaborn
 python vc_network_analysis.py
 ```
 
-Artifacts and images are written in the repo root.
+Artifacts and images are written in the repo root and `outputs/`.
 
 ## Report and Slides
 
-- Report (link placeholder): [Add your report link here]
-- Final slide deck (link placeholder): [Add your slide deck link here]
+- Report: [INFO 4940 Final Report (PDF)](INFO%204940%20Final%20Report.pdf)
+- Final slide deck: [INFO 4940 Final (PDF)](INFO%204940%20Final.pdf)
 
 ## Repository Link
 
@@ -89,7 +87,7 @@ This project is linked to GitHub: `https://github.com/insdaguirre/4940_FinalProj
 If you cloned from elsewhere, set the remote:
 
 ```bash
-git remote add origin https://github.com/инствоaguirre/4940_FinalProject_-VC_NetworkScience.git
+git remote add origin https://github.com/insdaguirre/4940_FinalProject_-VC_NetworkScience.git
 ```
 
 ## License
