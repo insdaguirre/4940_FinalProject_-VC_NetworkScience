@@ -1,6 +1,6 @@
 # VC Investment Network Analysis
 
-Final Project for INFO 4940: Network Science (Cornell University)
+Final Project for INFO 4940: Network Science (Cornell CIS)
 
 This repository analyzes venture capital (VC) investment networks using a bipartite graph of VCs and companies. It builds network metrics, visualizations, and portfolio analytics to understand which VCs are most connected, where they co-invest, and which industry verticals concentrate success and capital.
 
@@ -12,6 +12,16 @@ This project was completed as the final project for INFO 4940: Network Science. 
 - Explore temporal investment patterns and industry dynamics
 - Produce compelling visualizations and summary metrics
 
+ ## Results (Summary)
+
+Highlights from the analysis include:
+- VCs with the highest connectivity (degree) to portfolio companies, reflecting breadth of investing.
+- Co-investment structure showing clusters of VCs that frequently invest together.
+- Vertical concentration patterns and relative success rates by industry.
+- Temporal dynamics in deal flow and check sizes.
+- Report: [INFO 4940 Final Report (PDF)](INFO%204940%20Final%20Report.pdf)
+- Final slide deck: [INFO 4940 Final (PDF)](INFO%204940%20Final.pdf)
+
 ## Repository Structure
 
 - `vc_network_analysis.py`: Main analysis script. Builds the network, computes metrics, and outputs plots.
@@ -19,19 +29,7 @@ This project was completed as the final project for INFO 4940: Network Science. 
 - `outputs/`: Saved artifacts such as `company_graph.gexf`, centrality CSVs, and plots.
 - Data file(s): Expected CSV input (see below). You can update the path/filename in the script as needed.
 
-## Data Requirements
-
-Provide a CSV file including at least the following columns:
-- `vc_name`: VC firm name
-- `company_name`: Portfolio company name
-- `last_financing_size`: Most recent financing size (numeric, in millions)
-- `verticals`: Comma-separated vertical tags
-- `success_probability`: Success probability (percent or numeric)
-- `last_financing_date`: ISO-like date string (e.g., 2023-05-01)
-
-Default expected filename in the script: `Combined VC Data - Sheet1.csv`.
-
-## How It Works
+## How It Worked
 
 The pipeline in `vc_network_analysis.py`:
 1. Load and clean data: parse dates, coerce numeric fields, normalize text.
@@ -45,51 +43,14 @@ The pipeline in `vc_network_analysis.py`:
 4. Parallel metrics: the dataset is chunked and analyzed in parallel; results are correctly combined across chunks so VC-level metrics reflect all connections.
 5. Console summaries: top VCs by degree (connections), average success probability, and total investment.
 
-## Results (Summary)
+## Data Requirements
 
-Highlights from the analysis include:
-- VCs with the highest connectivity (degree) to portfolio companies, reflecting breadth of investing.
-- Co-investment structure showing clusters of VCs that frequently invest together.
-- Vertical concentration patterns and relative success rates by industry.
-- Temporal dynamics in deal flow and check sizes.
+Provide a CSV file including at least the following columns:
+- `vc_name`: VC firm name
+- `company_name`: Portfolio company name
+- `last_financing_size`: Most recent financing size (numeric, in millions)
+- `verticals`: Comma-separated vertical tags
+- `success_probability`: Success probability (percent or numeric)
+- `last_financing_date`: ISO-like date string (e.g., 2023-05-01)
 
-See the full write-up and slides for detailed findings, methodology, and figures.
-
-## Installation
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-## Usage
-
-1. Place your CSV (e.g., `Combined VC Data - Sheet1.csv`) in the repo root.
-2. If needed, update the filename inside `vc_network_analysis.py`.
-3. Run the analysis:
-
-```bash
-python vc_network_analysis.py
-```
-
-Artifacts and images are written in the repo root and `outputs/`.
-
-## Report and Slides
-
-- Report: [INFO 4940 Final Report (PDF)](INFO%204940%20Final%20Report.pdf)
-- Final slide deck: [INFO 4940 Final (PDF)](INFO%204940%20Final.pdf)
-
-## Repository Link
-
-This project is linked to GitHub: `https://github.com/insdaguirre/4940_FinalProject_-VC_NetworkScience`.
-
-If you cloned from elsewhere, set the remote:
-
-```bash
-git remote add origin https://github.com/insdaguirre/4940_FinalProject_-VC_NetworkScience.git
-```
-
-## License
-
-Educational project. Add a license if you plan to distribute or reuse.
+Default expected filename in the script: `Combined VC Data - Sheet1.csv`.
