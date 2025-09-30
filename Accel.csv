@@ -1,0 +1,55 @@
+company_name,company_financing_status,employees,hq_city,verticals,success_probability,total_raised,last_financing_date,last_financing_size
+Fictiv,Private Equity-Backed,400,San Francisco,"Advanced Manufacturing, SaaS, TMT",82%,195.62,17-Apr-2025,350.0
+Lyst,Venture Capital-Backed,150,London,"E-Commerce, TMT",85%,184.95,09-Apr-2025,154.0
+Innovist,Venture Capital-Backed,135,Gurgaon,"E-Commerce, LOHAS & Wellness",86%,33.01,08-Apr-2025,15.8
+Juspay,Venture Capital-Backed,1635,Bangalore,"FinTech, SaaS",94%,148.34,07-Apr-2025,60.0
+Fuse Finance,Venture Capital-Backed,12,Dubai,FinTech,71%,8.55,03-Apr-2025,6.6
+RapidClaims,Venture Capital-Backed,20,Wilmington,"Artificial Intelligence & Machine Learning, HealthTech, SaaS",78%,11.1,02-Apr-2025,8.0
+Zepz,Venture Capital-Backed,800,London,"FinTech, Mobile, Mobile Commerce, SaaS",95%,1673.46,01-Apr-2025,165.0
+Spinny,Venture Capital-Backed,3945,Gurugram,"E-Commerce, Mobile",98%,647.61,31-Mar-2025,131.0
+Tomorro,Venture Capital-Backed,71,Toulouse,"Artificial Intelligence & Machine Learning, FinTech, HR Tech, Legal Tech, SaaS",90%,49.82,31-Mar-2025,27.01
+Tailscale,Venture Capital-Backed,150,Toronto,SaaS,96%,277.26,28-Mar-2025,160.0
+Cult.Fit,Venture Capital-Backed,4032,Bangalore,"Digital Health, E-Commerce, LOHAS & Wellness, Mobile",96%,527.29,26-Mar-2025,287.86
+Nabhdrishti Aerospace,Venture Capital-Backed,15,Bangalore,,63%,3.46,26-Mar-2025,3.0
+Voiceops,Venture Capital-Backed,12,New York,"Artificial Intelligence & Machine Learning, EdTech, Industrials, SaaS",89%,23.72,26-Mar-2025,5.0
+Curefoods,Venture Capital-Backed,648,Bengaluru,FoodTech,97%,212.56,25-Mar-2025,6.6
+Silna Health,Venture Capital-Backed,15,New York,"Artificial Intelligence & Machine Learning, Digital Health, HealthTech",86%,32.09,25-Mar-2025,27.0
+ApnaMart,Venture Capital-Backed,36,Ranchi,E-Commerce,48%,39.08,24-Mar-2025,24.68
+Aura (Network Management Software),Venture Capital-Backed,946,Boston,"Cybersecurity, Mobile, SaaS, TMT",98%,995.01,24-Mar-2025,140.0
+VoidZero,Venture Capital-Backed,,Palo Alto,,82%,18.61,18-Mar-2025,14.0
+RedotPay,Venture Capital-Backed,,Hong Kong,"Cryptocurrency/Blockchain, FinTech",85%,43.0,14-Mar-2025,40.0
+Supabase,Venture Capital-Backed,124,San Francisco,"CloudTech & DevOps, SaaS",85%,297.89,13-Mar-2025,100.0
+Scimplify,Venture Capital-Backed,146,Bengaluru,,81%,50.73,12-Mar-2025,40.0
+Bizongo,Venture Capital-Backed,320,Mumbai,"E-Commerce, SaaS, Supply Chain Tech",97%,337.57,11-Mar-2025,4.5
+Zolve,Venture Capital-Backed,187,Houston,"FinTech, Mobile",88%,407.01,11-Mar-2025,251.0
+"Swish (Restaurants, Hotels and Leisure)",Venture Capital-Backed,69,Bengaluru,"E-Commerce, Mobile, SaaS",88%,16.05,07-Mar-2025,14.04
+Truemeds,Venture Capital-Backed,97,Mumbai,"E-Commerce, HealthTech, LOHAS & Wellness, Mobile",78%,71.97,06-Mar-2025,44.0
+Zeitview,Venture Capital-Backed,194,Santa Monica,"Artificial Intelligence & Machine Learning, CleanTech, Construction Technology, SaaS",97%,178.96,05-Mar-2025,60.0
+Instant (Business/Productivity Software),Venture Capital-Backed,59,Sydney,Marketing Tech,83%,19.58,03-Mar-2025,18.0
+AgroStar,Venture Capital-Backed,2636,Pune,"AgTech, Supply Chain Tech, TMT",98%,140.77,01-Mar-2025,6.62
+Quanta,Venture Capital-Backed,52,San Francisco,"FinTech, SaaS",,4.7,28-Feb-2025,4.7
+Veza,Venture Capital-Backed,195,Los Gatos,"Cybersecurity, SaaS",95%,233.6,28-Feb-2025,108.0
+Bridgetown Research,Venture Capital-Backed,2,Seattle,"Artificial Intelligence & Machine Learning, SaaS",57%,24.15,26-Feb-2025,19.0
+Raise (Services),Venture Capital-Backed,78,Chicago,"FinTech, TMT",97%,209.11,26-Feb-2025,63.0
+Paper (Multimedia and Design Software),Venture Capital-Backed,4,Palo Alto,"Artificial Intelligence & Machine Learning, SaaS",,4.2,25-Feb-2025,4.2
+Qualtrics,Private Equity-Backed,5589,Provo,,,3223.99,21-Feb-2025,50.0
+Spyne,Venture Capital-Backed,180,Gurugram,"Artificial Intelligence & Machine Learning, Big Data, Mobile, SaaS",89%,27.3,18-Feb-2025,16.0
+Imperia,Venture Capital-Backed,60,Valencia,"SaaS, Supply Chain Tech",85%,14.04,17-Feb-2025,10.39
+Relive,Venture Capital-Backed,83,Austin,Real Estate Technology,63%,6.98,14-Feb-2025,5.5
+FitOn,Venture Capital-Backed,118,West Hollywood,"LOHAS & Wellness, Mobile",89%,134.43,13-Feb-2025,48.65
+Beam (Financial Software),Venture Capital-Backed,10,San Francisco,"B2B Payments, Construction Technology, FinTech, SaaS",88%,15.0,12-Feb-2025,11.0
+Tines,Venture Capital-Backed,368,Dublin,"CloudTech & DevOps, SaaS",98%,271.71,11-Feb-2025,125.0
+Graphite (Software Development Applications),Venture Capital-Backed,48,New York,"Artificial Intelligence & Machine Learning, SaaS",77%,74.25,07-Feb-2025,52.0
+koodos labs,Venture Capital-Backed,10,New York,"Artificial Intelligence & Machine Learning, Big Data, Ephemeral Content, Marketing Tech, Wearables & Quantified Self",73%,18.0,07-Feb-2025,12.0
+VilCart,Venture Capital-Backed,308,Bengaluru,"E-Commerce, Supply Chain Tech",83%,31.34,07-Feb-2025,10.0
+Lottie,Venture Capital-Backed,189,London,Digital Health,73%,63.5,06-Feb-2025,30.87
+Nuitée,Venture Capital-Backed,200,Dublin,SaaS,,48.0,31-Jan-2025,48.0
+Presentations.AI,Venture Capital-Backed,26,Bengaluru,"Artificial Intelligence & Machine Learning, Mobile, SaaS",79%,3.7,30-Jan-2025,3.0
+Swan (Financial Software),Venture Capital-Backed,295,Montreuil,"FinTech, SaaS",90%,107.48,30-Jan-2025,81.75
+Zelt,Venture Capital-Backed,15,London,HR Tech,74%,10.85,30-Jan-2025,6.17
+BPR Hub,Venture Capital-Backed,,Krishna,"CloudTech & DevOps, SaaS",,2.6,20-Jan-2025,2.6
+Synthesia,Venture Capital-Backed,484,London,"Artificial Intelligence & Machine Learning, SaaS",95%,334.33,15-Jan-2025,180.0
+M.Gemi,Venture Capital-Backed,32,Boston,"E-Commerce, Manufacturing",77%,82.39,14-Jan-2025,0.94
+Sarla Aviation,Venture Capital-Backed,47,Bangalore,"Manufacturing, Mobility Tech",89%,11.7,14-Jan-2025,10.0
+Cartwheel (Multimedia and Design Software),Venture Capital-Backed,7,New York,"Artificial Intelligence & Machine Learning, SaaS, Virtual Reality",69%,14.35,06-Jan-2025,8.75
+Auggie (Information Services (B2C)),Venture Capital-Backed,,New York,Mobile,,2.58,02-Jan-2025,2.58

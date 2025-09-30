@@ -1,0 +1,49 @@
+company_name,company_financing_status,employees,hq_city,verticals,success_probability,total_raised,last_financing_date,last_financing_size
+Chainguard,Venture Capital-Backed,350,Kirkland,"Cybersecurity, SaaS",94%,606.0,23-Apr-2025,350.0
+Emversity,Venture Capital-Backed,198,Bangalore,"EdTech, SaaS",57%,16.0,23-Apr-2025,5.0
+Endor Labs,Venture Capital-Backed,133,Palo Alto,"Cybersecurity, SaaS",90%,163.0,23-Apr-2025,93.0
+Goodfire,Venture Capital-Backed,10,San Francisco,Artificial Intelligence & Machine Learning,89%,57.25,17-Apr-2025,50.0
+Safe Superintelligence,Venture Capital-Backed,20,Palo Alto,Artificial Intelligence & Machine Learning,98%,3000.0,13-Apr-2025,2000.0
+CalypsoAI,Venture Capital-Backed,68,New York,"Artificial Intelligence & Machine Learning, Cybersecurity, SaaS",91%,62.87,08-Apr-2025,26.87
+Rain,Venture Capital-Backed,175,Nashville,"FinTech, Mobile",98%,254.6,08-Apr-2025,75.0
+LightSource,Venture Capital-Backed,30,San Francisco,"Artificial Intelligence & Machine Learning, SaaS, Supply Chain Tech",94%,33.0,31-Mar-2025,33.0
+Zepto,Venture Capital-Backed,3000,Bangalore,"E-Commerce, FoodTech, Supply Chain Tech",74%,1970.13,26-Mar-2025,250.0
+Gemist,Venture Capital-Backed,10,Los Angeles,Mobile,80%,11.6,25-Mar-2025,2.1
+Rain (Financial Software),Venture Capital-Backed,25,New York,"Cryptocurrency/Blockchain, FinTech",85%,30.5,24-Mar-2025,24.5
+Wiz (Network Management Software),Venture Capital-Backed,900,New York,"Cybersecurity, SaaS",98%,1801.0,18-Mar-2025,32000.0
+Anthropic,Venture Capital-Backed,1000,San Francisco,"Artificial Intelligence & Machine Learning, Big Data, SaaS",98%,18004.0,11-Mar-2025,750.0
+Dexterity,Venture Capital-Backed,205,Redwood City,"Industrials, Robotics and Drones, Supply Chain Tech",96%,307.35,11-Mar-2025,95.0
+Synctera,Venture Capital-Backed,101,Palo Alto,FinTech,90%,60.4,11-Mar-2025,15.0
+Nirvana (Business/Productivity Software),Venture Capital-Backed,177,San Francisco,"Artificial Intelligence & Machine Learning, InsurTech",96%,162.17,10-Mar-2025,80.0
+Moveworks,Venture Capital-Backed,664,Mountain View,"Artificial Intelligence & Machine Learning, Big Data, SaaS",95%,308.15,09-Mar-2025,2850.0
+Reflection AI,Venture Capital-Backed,25,Brooklyn,"Artificial Intelligence & Machine Learning, Big Data",93%,130.0,07-Mar-2025,105.0
+Tessell,Venture Capital-Backed,143,San Ramon,"CloudTech & DevOps, SaaS",86%,94.0,06-Mar-2025,60.0
+Zocks,Venture Capital-Backed,47,San Francisco,"Artificial Intelligence & Machine Learning, SaaS",92%,19.3,06-Mar-2025,13.8
+Exa (Internet Software),Venture Capital-Backed,8,San Francisco,"Artificial Intelligence & Machine Learning, Big Data",88%,25.71,28-Feb-2025,20.59
+Bridgetown Research,Venture Capital-Backed,2,Seattle,"Artificial Intelligence & Machine Learning, SaaS",57%,24.15,26-Feb-2025,19.0
+AudioMob,Venture Capital-Backed,36,London,"AdTech, AudioTech, Gaming, Marketing Tech",60%,22.07,25-Feb-2025,5.0
+Arena Club,Venture Capital-Backed,44,Menlo Park,Artificial Intelligence & Machine Learning,83%,25.38,20-Feb-2025,6.5
+Abridge,Venture Capital-Backed,188,Pittsburgh,"Artificial Intelligence & Machine Learning, Digital Health, HealthTech, LOHAS & Wellness, Mobile",85%,463.9,19-Feb-2025,250.0
+Saronic Technologies,Venture Capital-Backed,286,Austin,"Advanced Manufacturing, Artificial Intelligence & Machine Learning, Manufacturing",97%,845.0,18-Feb-2025,600.0
+Frontera,Venture Capital-Backed,60,Denver,"Artificial Intelligence & Machine Learning, HealthTech",70%,32.0,14-Feb-2025,10.0
+K2 Space,Venture Capital-Backed,99,Torrance,"Manufacturing, Space Technology",81%,175.93,13-Feb-2025,110.0
+Tana,Venture Capital-Backed,47,Palo Alto,"Artificial Intelligence & Machine Learning, Mobile, SaaS",91%,25.49,13-Feb-2025,14.49
+Keychain (Business/Productivity Software),Venture Capital-Backed,42,New York,"Artificial Intelligence & Machine Learning, Marketing Tech, SaaS, Supply Chain Tech",95%,35.0,12-Feb-2025,5.0
+Verkada,Venture Capital-Backed,2437,San Mateo,"Artificial Intelligence & Machine Learning, Internet of Things, SaaS",98%,654.8,06-Feb-2025,200.0
+Semgrep,Venture Capital-Backed,174,San Francisco,"Artificial Intelligence & Machine Learning, SaaS, Supply Chain Tech",98%,196.0,05-Feb-2025,100.0
+Archive,Venture Capital-Backed,135,Los Altos,"CleanTech, Mobile, SaaS",94%,55.23,04-Feb-2025,30.0
+Virtue AI,Venture Capital-Backed,9,San Francisco,"Artificial Intelligence & Machine Learning, Cryptocurrency/Blockchain",90%,30.0,31-Jan-2025,22.0
+Observo AI,Venture Capital-Backed,33,Newark,"Artificial Intelligence & Machine Learning, Big Data, SaaS",84%,20.3,30-Jan-2025,15.0
+Castelion,Venture Capital-Backed,50,El Segundo,Manufacturing,81%,114.14,29-Jan-2025,100.0
+Clutch (Network Management Software),Venture Capital-Backed,30,Tel Aviv,"Cybersecurity, SaaS",83%,28.5,29-Jan-2025,20.0
+Oligo,Venture Capital-Backed,67,Tel Aviv,"Cybersecurity, SaaS",89%,86.0,29-Jan-2025,50.0
+Helion,Venture Capital-Backed,450,Everett,"CleanTech, Climate Tech",93%,1032.64,28-Jan-2025,425.0
+Neko Health,Venture Capital-Backed,44,Stockholm,"Artificial Intelligence & Machine Learning, HealthTech",92%,331.13,22-Jan-2025,260.0
+Databricks,Venture Capital-Backed,8000,San Francisco,"Artificial Intelligence & Machine Learning, Big Data, SaaS",98%,14411.95,14-Jan-2025,5250.0
+Scorpion Therapeutics,Venture Capital-Backed,140,Boston,"Life Sciences, Oncology",98%,420.0,11-Jan-2025,2500.0
+Endowus,Venture Capital-Backed,156,Singapore,"FinTech, Mobile",79%,108.2,09-Jan-2025,17.5
+Innovaccer,Venture Capital-Backed,1556,San Francisco,"Artificial Intelligence & Machine Learning, Big Data, Digital Health, HealthTech",98%,650.6,09-Jan-2025,275.0
+Data Sutram,Venture Capital-Backed,85,Kolkata,"Artificial Intelligence & Machine Learning, Big Data, SaaS",89%,16.52,08-Jan-2025,11.0
+Whatnot,Venture Capital-Backed,979,San Francisco,E-Commerce,98%,750.41,08-Jan-2025,265.0
+Cameo,Venture Capital-Backed,50,Chicago,Mobile,95%,206.6,07-Jan-2025,2.92
+Senseera,Venture Capital-Backed,16,Jerusalem,"Life Sciences, Oncology",55%,8.44,07-Jan-2025,7.09
